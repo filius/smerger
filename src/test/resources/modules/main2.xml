@@ -1,0 +1,7 @@
+<module>
+	<deps>
+		<inc>../coffee/test2.coffee</inc>
+		<inc>../coffee/test3.coffee</inc>
+		<dep>main</dep>
+	</deps>
+</module>

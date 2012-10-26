@@ -1,0 +1,9 @@
+<module>
+	<deps>
+		<inc>../coffee/test1.coffee</inc>
+		<inc>../coffee/test2.coffee</inc>
+	</deps>
+	<postprocessors>
+		<postprocessor>coffeescript</postprocessor>
+	</postprocessors>
+</module>
