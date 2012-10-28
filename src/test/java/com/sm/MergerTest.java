@@ -9,7 +9,7 @@ public class MergerTest {
 	@Test
 	public void coffeeMergerTest(){
 		Merger merger = new Merger();
-		merger.setModulesLocation("/modules/");
+		merger.setModulesDir("/modules/");
 		String val = null;
 		try{
 			val = merger.getModule("main");
@@ -22,7 +22,7 @@ public class MergerTest {
 	@Test
 	public void coffeeMergerDepsTest(){
 		Merger merger = new Merger();
-		merger.setModulesLocation("/modules/");
+		merger.setModulesDir("/modules/");
 		String val = null;
 		try{
 			val = merger.getModule("main2");

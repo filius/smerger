@@ -31,7 +31,7 @@ public class Merger {
 	
 	private String modulesDir;
 
-	public void setModulesLocation(String dir){
+	public void setModulesDir(String dir){
 		this.modulesDir = dir;
 		if(!dir.endsWith(File.separator))
 			this.modulesDir+=File.separator;
